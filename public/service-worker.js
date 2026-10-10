@@ -1,5 +1,5 @@
 // __BUILD_ID__ wird beim Build ersetzt (siehe vite.config.js) -> neuer Cache pro Deploy.
-const CACHE_NAME = 'ernaehrungstagebuch-__BUILD_ID__';
+const CACHE_NAME = 'essenstracker-__BUILD_ID__';
 const SHELL_ASSETS = ['./', './index.html', './manifest.json'];
 
 self.addEventListener('install', (event) => {

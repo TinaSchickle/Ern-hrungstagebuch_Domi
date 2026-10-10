@@ -1,4 +1,4 @@
-# Ernährungstagebuch (Domi)
+# EssensTracker (Domi)
 
 PWA zum Tracken von Essen und Beobachtungen für Domi (React + Vite + Supabase, Deployment über GitHub Actions nach GitHub Pages).
 

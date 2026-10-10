@@ -27,5 +27,5 @@ export default defineConfig({
   plugins: [react(), serviceWorkerBuildId()],
   base: './',
   // Cache außerhalb von OneDrive (Sync-Locks auf node_modules/.vite).
-  cacheDir: join(tmpdir(), 'ernaehrungstagebuch-vite-cache'),
+  cacheDir: join(tmpdir(), 'essenstracker-vite-cache'),
 })

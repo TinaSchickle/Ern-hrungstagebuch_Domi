@@ -1,6 +1,6 @@
 {
-  "name": "Ernährungstagebuch",
-  "short_name": "Ernährungstagebuch",
+  "name": "EssensTracker",
+  "short_name": "EssensTracker",
   "description": "Essen und Beobachtungen tracken – Domi",
   "start_url": "./index.html",
   "scope": "./",

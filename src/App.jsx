@@ -38,7 +38,7 @@ export default function App() {
   if (!supabase) {
     return (
       <main className="start">
-        <h1>Ernährungstagebuch</h1>
+        <h1>EssensTracker</h1>
         <p className="error-box">
           Supabase ist nicht konfiguriert (VITE_SUPABASE_URL / VITE_SUPABASE_ANON_KEY fehlen).
         </p>
@@ -55,7 +55,7 @@ export default function App() {
     <div className="shell">
       <header className="topbar">
         <img className="topbar-logo" src="./icons/logo.png" alt="" />
-        <h1 className="topbar-title">Ernährungstagebuch</h1>
+        <h1 className="topbar-title">EssensTracker</h1>
       </header>
 
       <main className="content">

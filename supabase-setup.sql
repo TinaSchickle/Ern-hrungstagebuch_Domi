@@ -1,4 +1,4 @@
--- Ernährungstagebuch (Domi): Tabelle + Zugriffsregeln. Kann gefahrlos mehrfach laufen.
+-- EssensTracker (Domi): Tabelle + Zugriffsregeln. Kann gefahrlos mehrfach laufen.
 -- Datum und Uhrzeit werden bewusst als deutsche Ortszeit (Europe/Berlin) gespeichert.
 
 create table if not exists public.etb_entries (
