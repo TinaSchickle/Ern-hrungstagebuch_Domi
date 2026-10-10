@@ -1,11 +1,11 @@
-// Erzeugt App-Icons und das Start-Logo aus assets/logo-source.webp.
+// Erzeugt App-Icons und das Start-Logo aus assets/logo-source.png.
 // Aufruf: node scripts/make-icons.mjs
 import sharp from 'sharp'
 
-const src = 'assets/logo-source.webp'
+const src = 'assets/logo-source.png'
 
 // Icons: Innenbereich der Logo-Kachel (ohne abgerundete Ecken), vollflächig.
-const INNER = { left: 325, top: 96, width: 376, height: 376 }
+const INNER = { left: 350, top: 78, width: 340, height: 340 }
 for (const [file, size] of [['icon-192', 192], ['icon-512', 512], ['icon-maskable-512', 512]]) {
   await sharp(src)
     .extract(INNER)
